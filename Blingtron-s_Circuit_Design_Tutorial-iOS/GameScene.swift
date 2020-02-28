@@ -98,14 +98,17 @@ class GameScene: SKScene {
 	override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
 		let touch = touches.first
 		if let location = touch?.location(in: self) {
-			let node = self.nodes(at: location)
-			if node[0].name == "OKButton" {
+			guard self.nodes(at: location).count >= 1 else {
+				return
+			}
+			let node = self.nodes(at: location)[0]
+			if node.name == "OKButton" {
 				if success {
 					print("success")
 				}
 				return
 			} else {
-				guard let beSelectedPoint = node.first as? SKEmitterNode else {
+				guard let beSelectedPoint = node as? SKEmitterNode else {
 					return
 				}
 				beSelectedPoint.particleColorSequence = beSelectedPoint.particleColorSequence == SelectedPointColor ? unSelectedPointColor : SelectedPointColor
@@ -123,7 +126,7 @@ class GameScene: SKScene {
 		}
 	}
 	
-	private func pointSwap(point1:SKEmitterNode, point2:SKEmitterNode, duration: Double = 0.5) {
+	private func pointSwap(point1:SKEmitterNode, point2:SKEmitterNode, duration: Double = 0.3) {
 		//lines
 		for i in lineArr {
 			let topath = CGMutablePath()
