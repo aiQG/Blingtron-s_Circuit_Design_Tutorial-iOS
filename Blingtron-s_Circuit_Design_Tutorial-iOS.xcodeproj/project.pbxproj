@@ -15,6 +15,7 @@
 		59C291132408B9540057CF60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C291112408B9540057CF60 /* Main.storyboard */; };
 		59C291152408B9550057CF60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C291142408B9550057CF60 /* Assets.xcassets */; };
 		59C291182408B9550057CF60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C291162408B9550057CF60 /* LaunchScreen.storyboard */; };
+		59C291222408C5660057CF60 /* Point.sks in Resources */ = {isa = PBXBuildFile; fileRef = 59C291212408C5660057CF60 /* Point.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		59C291142408B9550057CF60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59C291172408B9550057CF60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59C291192408B9550057CF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59C291212408C5660057CF60 /* Point.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Point.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				59C291092408B9540057CF60 /* GameScene.sks */,
 				59C2910B2408B9540057CF60 /* Actions.sks */,
 				59C2910D2408B9540057CF60 /* GameScene.swift */,
+				59C291212408C5660057CF60 /* Point.sks */,
 				59C2910F2408B9540057CF60 /* GameViewController.swift */,
 				59C291112408B9540057CF60 /* Main.storyboard */,
 				59C291142408B9550057CF60 /* Assets.xcassets */,
@@ -134,6 +137,7 @@
 				59C291132408B9540057CF60 /* Main.storyboard in Resources */,
 				59C2910A2408B9540057CF60 /* GameScene.sks in Resources */,
 				59C291152408B9550057CF60 /* Assets.xcassets in Resources */,
+				59C291222408C5660057CF60 /* Point.sks in Resources */,
 				59C291182408B9550057CF60 /* LaunchScreen.storyboard in Resources */,
 				59C2910C2408B9540057CF60 /* Actions.sks in Resources */,
 			);
