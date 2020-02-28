@@ -7,3 +7,6 @@
 调整节点位置, 使连线不交叉
 
 ![gaming](gaming.png)
+
+[MacOS版本](https://github.com/aiQG/Blingtron-s_Circuit_Design_Tutorial)
+
