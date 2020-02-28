@@ -26,11 +26,11 @@ class GameScene: SKScene {
 	
 	let pointList = [
 		CGPoint(x:  200, y:  200),	//0
-		CGPoint(x:   0, y:  200),	//1
+		CGPoint(x:    0, y:  200),	//1
 		CGPoint(x: -100, y:  200),	//2
 		CGPoint(x: -200, y:  200),	//3
 		CGPoint(x: -200, y: -200),	//4
-		CGPoint(x: 0, y: -200),	//5
+		CGPoint(x:    0, y: -200),	//5
 		CGPoint(x:  100, y: -200),	//6
 		CGPoint(x:  200, y: -200),	//7
 	]
@@ -58,7 +58,7 @@ class GameScene: SKScene {
 		OKButton.addChild(label)
 		OKButton.name = "OKButton"
 		label.name = OKButton.name
-		OKButton.position = CGPoint(x: 150, y: -60)
+		OKButton.position = CGPoint(x: 200, y: -300)
 		OKButton.zPosition = 2
 		self.addChild(OKButton)
 		// 创建点
